@@ -1,0 +1,4 @@
+add-application=curl -X POST "http://172.25.136.162:11102/wealthservice-rest/api/application";HTTP 200: [{"responseUrl":"http://172.25.136.162:11102/wealthservice-rest/api/application"
+search-application= curl -X GET "http://172.25.136.162:11102/wealthservice-rest/api/applicationcollection;HTTP 200: [{"responseUrl":"http://172.25.136.162:11102/wealthservice-rest/api/applicationcollection
+get-application=curl -X GET "http://172.25.136.162:11102/wealthservice-rest/api/application/20160804133706000066";HTTP 200: [{"responseUrl":"http://172.25.136.162:11102/wealthservice-rest/api/application/20160804133706000066"
+search-client=curl -X GET "http://172.25.136.162:11102/wealthservice-rest/api/clientcollection;HTTP 200: [{"responseUrl":"http://172.25.136.162:11102/wealthservice-rest/api/clientcollection

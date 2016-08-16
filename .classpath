@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="resource">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/commons-pool-1.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/jconn4.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-aop-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-beans-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-context-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-context-support-2.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-core-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-expression-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-jdbc-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/dev/oms_stuff/PerfTest/lib/spring-tx-4.2.4.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
